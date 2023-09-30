@@ -2,6 +2,8 @@
 
 A locally installed CLI package for starting projects the quick way.
 
+> Currently this project only supports the use of npm, support for yarn is on the way
+
 ## Install
 
 1. In your terminal of choice clone this repo
