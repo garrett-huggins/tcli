@@ -45,4 +45,16 @@ After that you will be able to give your new project a name, wait for the templa
 
 ## Adding A New Project Template
 
-[to do]
+Why not publish `tcli` as an npm package?
+The key to cloning the package and installing it from your local directory is you can now easily make changes to any of the template files and have access to them everywhere with just a simple re-build.
+
+### Adding a new template project
+1. In your `tcli` directory, create a new folder under `templates` and give it the name of the template project you are creating. This is the name you will see when selecting the project template from your cli
+2. Add any of the files you wish to start your new projects with
+3. Use `npm run build` to add your new project template
+4. Re-install your new build with `npm install -g`
+
+You will now see your new project template as an option the next time you run `tcli`
+
+### Package.json template name
+If your new project contains a `package.json` then you may also want to run `npm run dev-package` which will change the name in each of the templates' `package.json` to instead be a template variable that is set to the project name you provide when using `tcli`
