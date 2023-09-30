@@ -1,6 +1,6 @@
 # Templace CLI (tcli)
 
-A locally installed CLI for starting projects the quick way.
+A locally installed CLI package for starting projects the quick way.
 
 ## Install
 
