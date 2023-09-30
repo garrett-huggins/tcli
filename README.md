@@ -37,11 +37,11 @@ tcli
 ```
 You will then be prompted to select any of the template projects found in the packages `templates` directory
 
-[add image]
+![carbon (6)](https://github.com/garrett-huggins/tcli/assets/90536997/5ade64d1-cd0f-4ca1-aeb2-75c56ffec684)
 
 After that you will be able to give your new project a name, wait for the templates dependencies to be installed, and your new project is ready.
 
-[add image]
+![carbon](https://github.com/garrett-huggins/tcli/assets/90536997/4dae1570-254c-4362-ae87-587d529a7ea9)
 
 ## Adding A New Project Template
 
