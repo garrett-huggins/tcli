@@ -141,7 +141,7 @@ function postProcess(options: CliOptions) {
       console.log("Sorry, this script requires npm");
       return false;
     } else {
-      cmds.npm();
+      cmds.npm(options, CURR_DIR);
     }
   }
   return true;
