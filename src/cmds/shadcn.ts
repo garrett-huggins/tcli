@@ -42,5 +42,6 @@ export function shadcn() {
   config.forEach((c) => {
     console.log(c.q, ": ", c.a);
   });
+  // wont work since shelljs wont allow interaction
   shell.exec("npx shadcn-ui@latest init");
 }

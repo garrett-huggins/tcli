@@ -156,9 +156,9 @@ function handlePostProcess(options: CliOptions) {
   if (options.config.postSetup) {
     const QUESTIONS = options.config.postSetup;
     inquirer.prompt(QUESTIONS).then((answers) => {
-      if (answers["shadcn"]) {
-        cmds.shadcn();
-      }
+      // if (answers["shadcn"]) {
+      //   cmds.shadcn();
+      // }
     });
   }
   if (options.config.postMessage) {
